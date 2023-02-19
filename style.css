@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: sans-serif;
+    
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("background.jpg");
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    line-height: 50px;
+    background-color: rgb(0,206,209);
+}
+
+header * {
+    display: inline;
+    height: 50px;
+    
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 200vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+}
+
+.image{
+    margin-top: 1.5rem;
+    margin-bottom: 0rem;
+    max-width: 60vw;
+    max-height: 40vh;
+    /* margin-left: 4rem; */
+ }
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+section h2 {
+    font-size: 2.5em;
+}
+
+section h2 {
+    font-size: 1.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+.column {
+    
+    float: left;
+    width: 47.33%;
+    height: 461px;
+}
+.section-inner{
+    
+    padding: 2px;
+    text-align: center;
+    
+}
+
+.row:after {
+    
+    content: "";
+    display: flex;
+    clear: both;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+
+#courses {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  
+}
+
+#courses td, #courses th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#courses tr:nth-child(even){background-color: #f2f2f2;}
+
+#courses tr:hover {background-color: #ddd;}
+
+#courses th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+.tab {
+            display: inline-block;
+            margin-left: 40px;
+        }
+.id {
+background-image: linear-gradient(45deg, #FFFFFF, rgb(255, 122, 89));
+}
+
+
+
+  
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.movie-container {
+content: "";
+clear: both;
+display: table;
+}
+
+
+
+* {
+box-sizing: border-box;
+}
+
+
+.movie-item{
+  float: left;
+width: 33.33%;
+padding: 5px;
+}
+
+.sports-container {
+  display: flex;
+flex-wrap: wrap;
+}
+
+.sports-item{
+  flex-grow: 1;
+width: 33%;
+}
+
+.tv-container {
+  display: flex;
+flex-wrap: wrap;
+}
+
+.tv-item{
+  flex-grow: 1;
+  width:  33.33%;
+  }
+mark { 
+  background-color: rgb(236, 137, 25);
+  color: black;
+}
+
+
+.description {
+  padding-top: 4em;
+}
+
+.courses-section {
+  padding-right: 4em;
+}
